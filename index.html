@@ -24,7 +24,7 @@
 		<link rel="stylesheet" href="css/jquery.fullPage.css">
 		<!-- custom -->
 		<link rel="stylesheet" href="css/style.css">
-		<!-- font-awesome -->
+		<!-- font-awesome-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
@@ -219,12 +219,13 @@
 						</address>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
-						<form role="form" method="post" action="#">
-							<input name="name" type="text" class="form-control" id="name" placeholder="Votre Nom">
-							<input name="email" type="email" class="form-control" id="email" placeholder="Votre Mail">
-							<textarea name="message" rows="5" class="form-control" id="message" placeholder="Votre Message"></textarea>
-							<input name="send" type="submit" class="form-control" id="send" value="ENVOYER">
-						</form>
+						<form role="form" method="post" action="https://formspree.io/f/mdknveaa">
+							<input name="name" type="text" class="form-control" id="name" placeholder="Votre Nom" required>
+							<input name="email" type="email" class="form-control" id="email" placeholder="Votre Mail" required>
+							<textarea name="message" rows="5" class="form-control" id="message" placeholder="Votre Message" required></textarea>
+							<input name="_subject" type="hidden" value="New Contact Form Submission">
+							<input type="submit" class="form-control" id="send" value="ENVOYER">
+						</form>						
 					</div>
 					<div class="col-md-1 col-sm-1"></div>
 				</div>
@@ -240,9 +241,9 @@
 						<p></a></p>
 						<hr>
 						<ul class="social-icon">
-							<li><a href="#" class="fa fa-facebook"></a></li><!-- Pas encore créé -->
-							<li><a href="#" class="fa fa-twitter"></a></li><!-- Pas encore créé -->
-							<li><a href="#" class="fa fa-instagram"></a></li><!-- Pas encore créé -->
+							<li><a href="#" class="fab fa-facebook"></a></li><!-- Pas encore créé -->
+							<li><a href="#" class="fab fa-twitter"></a></li><!-- Pas encore créé -->
+							<li><a href="#" class="fab fa-instagram"></a></li><!-- Pas encore créé -->
 						</ul>
 					</div>
 				</div>

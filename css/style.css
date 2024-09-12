@@ -1,12 +1,12 @@
-body
-{
-	background: #000000;
-	color: #999;
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-}
-
+body {
+    background: #000000 url('../images/background.jpg') no-repeat center center;
+    background-size: cover; /* Makes sure the image covers the whole background */
+    color: #999;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
 /* start all section */
 #home,
 #home .fp-slide,
